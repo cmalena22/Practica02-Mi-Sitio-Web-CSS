@@ -5,13 +5,20 @@ html {
      }  
 
 body {  
-      color: rgb(91, 91, 91);    background-color: ivory; 
+     
+      background-color: ivory; 
     }
-
-nav.contenido h1 {
-    background-color: red;
-    color: white;
+/*Contenido estilos*/
+section#Contenido h1{
+  color:black;
+  background-color:cornflowerblue;
 }
+
+section#Contenido p{
+  text-align: justify;
+}
+
+
 /*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
 
 aside.Publicidad  h1 {
@@ -19,7 +26,22 @@ aside.Publicidad  h1 {
   background-color: salmon;
 }
 
+aside.Publicidad p{
+  text-align: justify;
+}
+aside.Publicidad ul li a{
+  color: green;
+}
 
+/*Selector de etiqueta*/
+
+footer{
+  color:black;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+/*Otro aside*/
 
 
 /*
