@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+
 html {  
       background-color: hsl(27, 72%, 72%);
      }  
@@ -13,6 +14,7 @@ body {
 section#Contenido h1{
   color:black;
   background-color:cornflowerblue;
+  text-align: center;
 }
 
 section#Contenido p{
@@ -32,7 +34,8 @@ aside.Publicidad p{
 }
 /*Selector de selectores*/
 aside.Publicidad ul li a{
-  color: green;
+  font-family: 'Times New Roman', Times, serif
+  
 }
 
 aside.Publicidad ul li {
@@ -52,12 +55,12 @@ aside.Publicidad  {
 /* Aside de publicidad */
 aside.Publicidad1 p {
   text-align: justify;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
 }
 
 footer{
   color:black;
-  background-color: blueviolet;
+  background-color: sandybrown;
   text-align: center;
 }
 
@@ -65,6 +68,28 @@ footer{
 
 section#Contenido article h2{
   color:red;
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*pseudoclases*/
+a:link{
+  color:yellow;
+  font-weight: bold;
+
+}
+
+a:visited{
+  color:gray;
+}
+a:hover{
+  background: yellow;
+  color: black;
+}
+a:active{
+  background: #007805;
+  color: yellow
 }
 
 
