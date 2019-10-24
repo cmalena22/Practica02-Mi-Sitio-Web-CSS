@@ -1,0 +1,78 @@
+html {  
+    background-color: hsl(27, 72%, 72%);
+   }  
+
+body {  
+   
+    background-color: ivory; 
+  }
+  /*Contenido estilos*/
+section#Contenido h1{
+    color:black;
+    background-color:cornflowerblue;
+    text-align: center;
+  }
+  
+  section#Contenido p{
+    text-align: justify;
+  }
+/*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
+
+aside.Publicidad  h1 {
+    color:black;
+    background-color: salmon;
+  }
+  
+  aside.Publicidad p{
+    text-align: justify;
+  }
+  /*Selector de selectores*/
+  aside.Publicidad ul li a{
+    font-family: 'Times New Roman', Times, serif
+    
+  }
+  
+  aside.Publicidad ul li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.1em;
+  }
+  /*Borde ovalado*/
+  
+  aside.Publicidad  {
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+  }
+  
+  
+footer{
+    color:black;
+    background-color: sandybrown;
+    text-align: center;
+  }
+  /*tres etiquetas personalizadas*/
+
+section#Contenido article h2{
+    color:red;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+/*pseudoclases*/
+a:link{
+    color:yellow;
+    font-weight: bold;
+  
+  }
+  
+  a:visited{
+    color:gray;
+  }
+  a:hover{
+    background: yellow;
+    color: black;
+  }
+  a:active{
+    background: #007805;
+    color: yellow
+  }  
