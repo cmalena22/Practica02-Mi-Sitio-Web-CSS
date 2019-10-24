@@ -27,19 +27,19 @@ body > header {
 body > nav {
 	width: 20%;
 	float: left;
-	
 }
 
 
 aside.Publicidad {
 	width: 20%;
-	float:left;
-	
-	
+    float:left;	
+    
+	margin: 0 0 0 0.5%;
 }
 #Contenido{
     width: 55%;
-    float: left;
+    float: left;    
+	margin: 0 2% 0 2%;
 }
 
 
