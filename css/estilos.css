@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 html {  
       background-color: hsl(27, 72%, 72%);
      }  
@@ -51,6 +52,7 @@ aside.Publicidad  {
 /* Aside de publicidad */
 aside.Publicidad1 p {
   text-align: justify;
+  letter-spacing: 0.5em;
 }
 
 footer{
@@ -59,7 +61,11 @@ footer{
   text-align: center;
 }
 
-/*Otro aside*/
+/*tres etiquetas personalizadas*/
+
+section#Contenido article h2{
+  color:red;
+}
 
 
 /*
