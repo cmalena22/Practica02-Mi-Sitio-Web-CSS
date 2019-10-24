@@ -18,6 +18,7 @@ section#Contenido h1{
 }
 
 section#Contenido p{
+  text-indent: 20px;
   text-align: justify;
 }
 
@@ -27,6 +28,7 @@ section#Contenido p{
 aside.Publicidad  h1 {
   color:black;
   background-color: salmon;
+ 
 }
 
 aside.Publicidad p{
@@ -55,8 +57,10 @@ aside.Publicidad  {
 /* Aside de publicidad */
 aside.Publicidad1 p {
   text-align: justify;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
+
+
 
 footer{
   color:black;
@@ -68,7 +72,7 @@ footer{
 
 section#Contenido article h2{
   color:red;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
