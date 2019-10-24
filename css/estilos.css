@@ -29,11 +29,29 @@ aside.Publicidad  h1 {
 aside.Publicidad p{
   text-align: justify;
 }
+/*Selector de selectores*/
 aside.Publicidad ul li a{
   color: green;
 }
 
+aside.Publicidad ul li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.1em;
+}
+/*Borde ovalado*/
+
+aside.Publicidad  {
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
 /*Selector de etiqueta*/
+
+/* Aside de publicidad */
+aside.Publicidad1 p {
+  text-align: justify;
+}
 
 footer{
   color:black;
