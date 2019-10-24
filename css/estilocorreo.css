@@ -1,0 +1,51 @@
+html {  
+    background-color: hsl(27, 72%, 72%);
+   }  
+
+body {  
+   
+    background-color: ivory; 
+  }
+  aside.Publicidad  h1 {
+    color:black;
+    background-color: salmon;
+    text-align: center
+  }
+
+  aside.Publicidad ul li a{
+    font-family: 'Times New Roman', Times, serif
+    
+  }
+  aside.Publicidad ul li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.1em;
+  }
+  
+  /*pseudoclases*/
+a:link{
+    color:yellow;
+    font-weight: bold;
+  
+  }
+  
+  a:visited{
+    color:gray;
+  }
+  a:hover{
+    background: yellow;
+    color: black;
+  }
+  a:active{
+    background: #007805;
+    color: yellow
+  }  
+  /*footer*/
+  footer{
+    color:black;
+    background-color: sandybrown;
+    text-align: center;
+  }
+  input,textarea{
+      border-color: yellow;
+  }
