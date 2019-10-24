@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="cajas, nariz del diablo, puyo, quito,galapagos" />       
+    <meta name="keywords" content="cajas, nariz del diablo, puyo, quito,galapagos" />         
+   <link type="text/css" rel="stylesheet" href="./css/estilocorreo.css"/>   
    <link type="text/css" rel="stylesheet" href="./css/estiloformulario.css"/> 
     <title>Correo</title>
 </head>
@@ -10,9 +11,27 @@
         <header>
                 <img src="logo1.jpg" alt="Bienvenidos" />
             </header>
+            <aside class="Publicidad">
+                <h1>
+                        Opciones
+                </h1>
+            <nav>
+                
+                <ul>
+                    <li><a href="cajas.html">Cajas</a></li>
+                    <li><a href="quito.html">Quito</a></li>
+                    <li><a href="nariz.html">Nariz del Diablo</a></li>
+                    <li><a href="puyo.html">Puyo</a></li>
+                    <li><a href="galapagos.html">Galapagos</a></li>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="correo.html">correo</a></li>
+                </ul>
+            </nav>
+              
+        </aside>
     <form action="" method="POST">
             <div>
-                    <label for="name">Name:</label>
+                    <label for="nombre">Nombre:</label>
                     <input type="text" id="name" />
                 </div>
                 <div>
@@ -20,11 +39,11 @@
                     <input type="email" id="mail" />
                 </div>
                 <div>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg"></textarea>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
                 </div>
                 <div class="button">
-                        <button type="submit">Send your message</button>
+                        <button type="enviar">Enviar</button>
                 </div>
     </form>
     <footer>
