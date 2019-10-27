@@ -3,17 +3,17 @@
 
 
 html {  
-      background-color: hsl(27, 72%, 72%);
+      background-color: #FE5F55;
      }  
 
 body {  
      
-      background-color: ivory; 
+      background-color: #EEF5DB; 
     }
 /*Contenido estilos*/
 section#Contenido h1{
-  color:black;
-  background-color:cornflowerblue;
+  color:#333745;
+  background-color:#C7EFCF;
   text-align: center;
 }
 
@@ -26,8 +26,14 @@ section#Contenido p{
 /*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
 
 aside.Publicidad  h1 {
-  color:black;
-  background-color: salmon;
+  color:#333745;
+  background-color:#C7EFCF;
+ 
+}
+
+aside.Publicidad1  h1 {
+  color:#333745;
+  background-color:#C7EFCF;
  
 }
 
@@ -37,7 +43,6 @@ aside.Publicidad p{
 /*Selector de selectores*/
 aside.Publicidad ul li a{
   font-family: 'Times New Roman', Times, serif
-  
 }
 
 aside.Publicidad ul li {
@@ -49,8 +54,9 @@ aside.Publicidad ul li {
 
 aside.Publicidad  {
   border-radius: 20px;
-  border: 1px solid black;
-  background-color: blanchedalmond;
+  border: 1px solid #333745;
+  background-color: #EEF5DB;
+  
 }
 /*Selector de etiqueta*/
 
@@ -71,7 +77,7 @@ footer{
 /*tres etiquetas personalizadas*/
 
 section#Contenido article h2{
-  color:red;
+  color: #e63462;;
   font-size: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -79,13 +85,13 @@ section#Contenido article h2{
 
 /*pseudoclases*/
 a:link{
-  color:yellow;
+  color:#333745;
   font-weight: bold;
 
 }
 
 a:visited{
-  color:gray;
+  color:#e63462;
 }
 a:hover{
   background: yellow;
@@ -94,6 +100,41 @@ a:hover{
 a:active{
   background: #007805;
   color: yellow
+}
+
+/*centrar la imagen
+*/
+
+header img{
+  display: block;
+  margin: auto;
+  width: 1004px;
+  height: 400px;
+}
+
+section#Contenido p:first-letter{
+  content: "\21C";
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+
+}
+aside.Publicidad1 p:before { 
+  content: "\201C"; /* inicio comilla */
+  font-family: Georgia;
+  font-size:25px; /* tamaño */
+  font-weight: bold; line-height:0px;
+  vertical-align:middle;
+  }
+aside.Publicidad1 p:after{
+  content: "\201D";
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0px;
+  vertical-align: middle;
+  padding-top: 10px;
 }
 
 

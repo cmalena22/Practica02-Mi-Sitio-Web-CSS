@@ -1,45 +1,93 @@
+
 html {  
-    background-color: hsl(27, 72%, 72%);
-   }  
+  background-color: #FE5F55;
+ }  
 
 body {  
-   
-    background-color: ivory; 
-  }
-  aside.Publicidad  h1 {
-    color:black;
-    background-color: salmon;
-    text-align: center
-  }
+ 
+  background-color: #EEF5DB; 
+}
+/*Contenido estilos*/
+section#Contenido h1{
+color:#333745;
+background-color:#C7EFCF;
+text-align: center;
+}
 
-  aside.Publicidad ul li a{
-    font-family: 'Times New Roman', Times, serif
-    
-  }
-  aside.Publicidad ul li {
-    list-style: none;
-    text-align: left;
-    font-size: 1.1em;
-  }
+
+
+/*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
+
+aside.Publicidad  h1 {
+color:#333745;
+background-color:#C7EFCF;
+
+}
+
+aside.Publicidad1  h1 {
+color:#333745;
+background-color:#C7EFCF;
+
+}
+
+/*Selector de selectores*/
+aside.Publicidad ul li a{
+  font-family: 'Times New Roman', Times, serif
+}
+
+aside.Publicidad ul li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.1em;
+}
+/*Borde ovalado*/
+
+aside.Publicidad  {
+  border-radius: 20px;
+  border: 1px solid #333745;
+  background-color: #EEF5DB;
   
-  /*pseudoclases*/
+}
+
+/* Aside de publicidad */
+aside.Publicidad1 p {
+  text-align: justify;
+  letter-spacing: 0.1em;
+}
+
+footer{
+  color:black;
+  background-color: sandybrown;
+  text-align: center;
+}
+
+/*tres etiquetas personalizadas*/
+
+section#Contenido  h1{
+  color: #e63462;;
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+/*pseudoclases*/
 a:link{
-    color:yellow;
-    font-weight: bold;
-  
-  }
-  
-  a:visited{
-    color:gray;
-  }
-  a:hover{
-    background: yellow;
-    color: black;
-  }
-  a:active{
-    background: #007805;
-    color: yellow
-  }  
+  color:#333745;
+  font-weight: bold;
+
+}
+
+a:visited{
+  color:#e63462;
+}
+a:hover{
+  background: yellow;
+  color: black;
+}
+a:active{
+  background: #007805;
+  color: yellow
+}
+
   /*footer*/
   footer{
     color:black;
@@ -47,5 +95,64 @@ a:link{
     text-align: center;
   }
   input,textarea{
-      border-color: yellow;
+      border-color:#C7EFCF;
   }
+
+
+
+  /*Correo*/
+  form {
+   
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 2px solid #333745;
+    border-radius: 2em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+}
+aside.Publicidad1 p:before { 
+  content: "\201C"; /* inicio comilla */
+  font-family: Georgia;
+  font-size:25px; /* tamaño */
+  font-weight: bold; line-height:0px;
+  vertical-align:middle;
+  }
+aside.Publicidad1 p:after{
+  content: "\201D";
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0px;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+header img{
+  display: block;
+  margin: auto;
+  width: 1004px;
+  height: 400px;
+}
+
+section#Contenido img{
+  display: block;
+  margin: 30px;
+  width: 504px;
+  height: 300px;
+}

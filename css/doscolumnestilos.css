@@ -1,78 +1,103 @@
+@charset "utf-8";
+
+
+
 html {  
-    background-color: hsl(27, 72%, 72%);
-   }  
+      background-color: #FE5F55;
+     }  
 
 body {  
-   
-    background-color: ivory; 
-  }
-  /*Contenido estilos*/
+     
+      background-color: #EEF5DB; 
+    }
+/*Contenido estilos*/
 section#Contenido h1{
-    color:black;
-    background-color:cornflowerblue;
-    text-align: center;
-  }
-  
-  section#Contenido p{
-    text-align: justify;
-  }
+  color:#333745;
+  background-color:#C7EFCF;
+  text-align: center;
+}
+
+section#Contenido p{
+  text-indent: 20px;
+  text-align: justify;
+}
+
+
 /*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
 
 aside.Publicidad  h1 {
-    color:black;
-    background-color: salmon;
-  }
+  color:#333745;
+  background-color:#C7EFCF;
+ 
+}
+aside.Publicidad p{
+  text-align: justify;
+}
+/*Selector de selectores*/
+aside.Publicidad ul li a{
+  font-family: 'Times New Roman', Times, serif
+}
+
+aside.Publicidad ul li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.1em;
+}
+/*Borde ovalado*/
+
+aside.Publicidad  {
+  border-radius: 20px;
+  border: 1px solid #333745;
+  background-color: #EEF5DB;
   
-  aside.Publicidad p{
-    text-align: justify;
-  }
-  /*Selector de selectores*/
-  aside.Publicidad ul li a{
-    font-family: 'Times New Roman', Times, serif
-    
-  }
-  
-  aside.Publicidad ul li {
-    list-style: none;
-    text-align: left;
-    font-size: 1.1em;
-  }
-  /*Borde ovalado*/
-  
-  aside.Publicidad  {
-    border-radius: 20px;
-    border: 1px solid black;
-    background-color: blanchedalmond;
-  }
-  
-  
+}
+/*Selector de etiqueta*/
+
 footer{
-    color:black;
-    background-color: sandybrown;
-    text-align: center;
-  }
-  /*tres etiquetas personalizadas*/
+  color:black;
+  background-color: sandybrown;
+  text-align: center;
+}
+
+/*tres etiquetas personalizadas*/
 
 section#Contenido article h2{
-    color:red;
-    font-size: 2em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+  color: #e63462;;
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 /*pseudoclases*/
 a:link{
-    color:yellow;
-    font-weight: bold;
-  
-  }
-  
-  a:visited{
-    color:gray;
-  }
-  a:hover{
-    background: yellow;
-    color: black;
-  }
-  a:active{
-    background: #007805;
-    color: yellow
-  }  
+  color:#333745;
+  font-weight: bold;
+
+}
+
+a:visited{
+  color:#e63462;
+}
+a:hover{
+  background: yellow;
+  color: black;
+}
+a:active{
+  background: #007805;
+  color: yellow
+}
+section#Contenido p:first-letter{
+  content: "\21C";
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+
+}
+header img{
+  display: block;
+  margin: auto;
+  width: 1024px;
+  height: 410px;
+}
+

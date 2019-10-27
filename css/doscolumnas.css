@@ -8,17 +8,19 @@
 html{
     margin:0 auto ;
     width: 40%;
-    max-width: 1010px;
-    min-width: 700px;
+    max-width: 1610px;
+    min-width:1000px;
 }
+
 body {
 	margin: 0 auto;
 	width: 100%;
-    max-width: 1220px;    
+	max-width: 1120px;
 }
+
 body > header {
-	margin: 0;
-	width: 100%;
+	margin: 10px;
+	width: 96%;
 	overflow: hidden;
 }
 body > nav {

@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 /**{
     border-width: 2px;
     border-color: red;
@@ -8,8 +8,8 @@
 html{
     margin:0 auto ;
     width: 40%;
-    max-width: 1010px;
-    min-width: 700px;
+    max-width: 1610px;
+    min-width:1000px;
 }
 
 body {
@@ -19,9 +19,10 @@ body {
 }
 
 body > header {
-	margin: 0;
+	margin: 10px;
 	width: 100%;
-	overflow: hidden;
+    overflow: hidden;
+    width: 950px;
 }
 
 body > nav {
@@ -54,7 +55,14 @@ aside.Publicidad1{
 }
 nav.Publicidad ul {
     border: ipx solid;
-    color: red;
+  
+}
+section#Contenido iframe{
+    width: 90%;
+    height:290px;
+}
+section#Contenido img{
+    width: 550px;
 }
 
 
