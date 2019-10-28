@@ -14,12 +14,16 @@ body {
 section#Contenido h1{
   color:#333745;
   background-color:#C7EFCF;
-  text-align: center;
+  text-align: center; 
+  letter-spacing: 0.5em;
+ 
 }
 
 section#Contenido p{
   text-indent: 20px;
   text-align: justify;
+  white-space:normal;
+  font-style: italic;
 }
 
 
@@ -34,7 +38,6 @@ aside.Publicidad  h1 {
 aside.Publicidad1  h1 {
   color:#333745;
   background-color:#C7EFCF;
- 
 }
 
 aside.Publicidad p{
@@ -44,30 +47,24 @@ aside.Publicidad p{
 aside.Publicidad ul li a{
   font-family: 'Times New Roman', Times, serif
 }
-
 aside.Publicidad ul li {
   list-style: none;
   text-align: left;
   font-size: 1.1em;
 }
 /*Borde ovalado*/
-
 aside.Publicidad  {
   border-radius: 20px;
   border: 1px solid #333745;
   background-color: #EEF5DB;
   
-}
-/*Selector de etiqueta*/
+}/*Selector de etiqueta*/
 
 /* Aside de publicidad */
 aside.Publicidad1 p {
   text-align: justify;
   letter-spacing: 0.1em;
 }
-
-
-
 footer{
   color:black;
   background-color: sandybrown;
@@ -80,18 +77,19 @@ section#Contenido article h2{
   color: #e63462;;
   font-size: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  word-spacing: 0.5em;
 }
-
-
 /*pseudoclases*/
 a:link{
   color:#333745;
   font-weight: bold;
 
 }
-
 a:visited{
   color:#e63462;
+  
 }
 a:hover{
   background: yellow;
@@ -101,10 +99,7 @@ a:active{
   background: #007805;
   color: yellow
 }
-
-/*centrar la imagen
-*/
-
+/*centrar la imagen*/
 header img{
   display: block;
   margin: auto;

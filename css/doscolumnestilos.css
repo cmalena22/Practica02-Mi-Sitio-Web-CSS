@@ -1,13 +1,9 @@
 @charset "utf-8";
-
-
-
 html {  
       background-color: #FE5F55;
      }  
 
-body {  
-     
+body {      
       background-color: #EEF5DB; 
     }
 /*Contenido estilos*/
@@ -16,15 +12,11 @@ section#Contenido h1{
   background-color:#C7EFCF;
   text-align: center;
 }
-
 section#Contenido p{
   text-indent: 20px;
   text-align: justify;
 }
-
-
 /*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
-
 aside.Publicidad  h1 {
   color:#333745;
   background-color:#C7EFCF;
@@ -44,35 +36,27 @@ aside.Publicidad ul li {
   font-size: 1.1em;
 }
 /*Borde ovalado*/
-
 aside.Publicidad  {
   border-radius: 20px;
   border: 1px solid #333745;
-  background-color: #EEF5DB;
-  
+  background-color: #EEF5DB;  
 }
 /*Selector de etiqueta*/
-
 footer{
   color:black;
   background-color: sandybrown;
   text-align: center;
 }
-
 /*tres etiquetas personalizadas*/
-
 section#Contenido article h2{
   color: #e63462;;
   font-size: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 /*pseudoclases*/
 a:link{
   color:#333745;
   font-weight: bold;
-
 }
 
 a:visited{

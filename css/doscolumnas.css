@@ -1,23 +1,15 @@
 @charset "utf-8";
-/**{
-    border-width: 2px;
-    border-color: red;
-    border-style: solid;
-    margin: 0.5%;
-} */
 html{
     margin:0 auto ;
     width: 40%;
     max-width: 1610px;
     min-width:1000px;
 }
-
 body {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1120px;
 }
-
 body > header {
 	margin: 10px;
 	width: 96%;

@@ -1,81 +1,60 @@
-
 html {  
   background-color: #FE5F55;
  }  
-
-body {  
- 
+body { 
   background-color: #EEF5DB; 
-}
+     }
 /*Contenido estilos*/
 section#Contenido h1{
 color:#333745;
 background-color:#C7EFCF;
 text-align: center;
 }
-
-
-
 /*aqui estoy tomando las etiquetas de la clase aside todas las h1*/
-
 aside.Publicidad  h1 {
 color:#333745;
 background-color:#C7EFCF;
-
 }
-
 aside.Publicidad1  h1 {
 color:#333745;
 background-color:#C7EFCF;
-
 }
-
 /*Selector de selectores*/
 aside.Publicidad ul li a{
   font-family: 'Times New Roman', Times, serif
 }
-
 aside.Publicidad ul li {
   list-style: none;
   text-align: left;
   font-size: 1.1em;
 }
 /*Borde ovalado*/
-
 aside.Publicidad  {
   border-radius: 20px;
   border: 1px solid #333745;
-  background-color: #EEF5DB;
-  
+  background-color: #EEF5DB;  
 }
-
 /* Aside de publicidad */
 aside.Publicidad1 p {
   text-align: justify;
   letter-spacing: 0.1em;
 }
-
 footer{
   color:black;
   background-color: sandybrown;
   text-align: center;
 }
-
 /*tres etiquetas personalizadas*/
-
 section#Contenido  h1{
   color: #e63462;;
   font-size: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-  
+}  
 /*pseudoclases*/
 a:link{
   color:#333745;
   font-weight: bold;
-
 }
-
 a:visited{
   color:#e63462;
 }
@@ -87,7 +66,6 @@ a:active{
   background: #007805;
   color: yellow
 }
-
   /*footer*/
   footer{
     color:black;
@@ -97,12 +75,8 @@ a:active{
   input,textarea{
       border-color:#C7EFCF;
   }
-
-
-
   /*Correo*/
-  form {
-   
+  form {   
     /* Para ver el borde del formulario */
     padding: 1em;
     border: 2px solid #333745;
